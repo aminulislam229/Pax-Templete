@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --color-1: #0149a1;
+  --color-2: #5d6981;
+  --color-3: #7c8ca0;
+  --color-4: #5483bb;
+  --color-4: #edeff1;
+}
+
+/* -------navbar part-------- */
+
+.navbar-expand-lg {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navbar-brand span {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--color-1);
+}
+
+.navbar-brand {
+  font-size: 36px;
+  font-weight: lighter;
+  color: var(--color-1);
+}
+
+.navbar ul li {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--color-2);
+  text-transform: capitalize;
+  transition: all linear .6s;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  padding: 2px 10px;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.fa-brands {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.fa-brands.fa-twitter {
+  color: #28aae1;
+}
+
+.nav-icon {
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  margin-left: 10px;
+}
+
+.navbar ul li:hover {
+  border-color: var(--color-3);
+}
+
+/* ----------hero part--------- */
+
+.hero {
+  background: url(../photos/home-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-con h2 {
+  font-size: 62px;
+  font-weight: bold;
+  color: var(--color-1);
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.hero-con p {
+  font-size: 30px;
+  font-weight: lighter;
+  color: var(--color-2);
+  margin-bottom: 0;
+  padding-bottom: 55px;
+}
+
+.hero-con button {
+  border-radius: 25px;
+  padding: 8px 35px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 75px;
+}
+
+.hero-con {
+  padding-top: 85px;
+}
+
+.hero-con-img {
+  position: relative;
+}
+
+.hero-con-img-overlay {
+  height: 100%;
+  width: 100%;
+  top: -10%;
+  left: 0;
+  background: url(../photos/about-pic.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.hero-con-img-overlay a {
+  height: 40px;
+  width: 100px;
+  display: block;
+  border-radius: 25px;
+  background: #fff;
+  text-align: center;
+  line-height: 40px;
+  color: aqua;
+}
+
+.hero-con-img-overlay i {
+  color: var(--color-2);
+}
+
+.hero-con-img-overlay span {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--color-1);
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.about_con {
+  padding: 55px 0;
+}
+
+.about_con i {
+  font-size: 55px;
+  color: rgb(209, 64, 112);
+  padding-bottom: 30px;
+}
+
+.about_con h3 {
+  font-size: 30px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: var(--color-2);
+}
+
+.about_con p {
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: lighter;
+  color: var(--color-3);
+  line-height: 25px;
+}
+
+/* -------------critivety part------------- */
+
+.critivety-con-img {
+  position: relative;
+}
+
+.critivety-con-overlay {
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.critivety-con-overlay button {
+  border-radius: 25px;
+  padding: 8px 35px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* -------work part--------- */
+
+.work {
+  background: var(--color-1);
+}
+
+.work-con p {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+
+.work-con {
+  padding-bottom: 35px;
+}
+
+.work-con-main {
+  padding-bottom: 85px;
+}
+
+.work-con-btn button {
+  border-radius: 25px;
+  padding: 8px 35px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* -------comment part----------- */
+
+.swiper-slide img {
+  padding-bottom: 25px;
+}
+
+.swiper-slide p {
+  font-size: 24px;
+  font-weight: lighter;
+  font-style: italic;
+  color: var(--color-3);
+  padding-bottom: 15px;
+}
+.swiper-slide h5 {
+  font-size: 18px;
+  font-weight: lighter;
+  color: var(--color-3);
+  margin-bottom: 10px;
+}
+
+.swiper-button-next {
+  padding: 35px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid var(--color-3);
+  color: teal;
+}
+
+.swiper-button-prev {
+  padding: 35px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid var(--color-3);
+  color: teal;
+}
+
+.comment-con-main {
+  padding: 150px 0;
+}
+
+.swiper-wrapper {
+  margin-bottom: 75px;
+}
+
+/* ---------team part--------- */
+
+.team-con-img {
+  padding-bottom: 25px;
+}
+
+.team-con h3 {
+  font-size: 30px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: var(--color-2);
+  padding-bottom: 15px;
+}
+
+.team-con p {
+  font-size: 18px;
+  font-weight: lighter;
+  color: var(--color-2);
+  margin-bottom: 0;
+  line-height: 25px;
+}
+
+.team-con-btn button {
+  border-radius: 25px;
+  padding: 8px 35px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.team-con {
+  padding: 65px 0;
+}
+
+.team {
+  background: url(../photos/team-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 90px 0;
+}
+
+/* -----------location part---------- */
+
+.location-con{
+  position: relative;
+}
+
+.location-con-overlay {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+
+/* ------------footer part----------- */
+
+.footer {
+  background: var(--color-1);
+}
+
+.footer-con p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+footer p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 0;
+}
+
+footer span {
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.footer-con-main {
+  padding: 85px 0;
+}
+
+.footer-con {
+  padding-bottom: 85px;
+}
